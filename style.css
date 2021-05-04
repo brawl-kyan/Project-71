@@ -1,0 +1,67 @@
+marquee {
+    background-color: aqua;
+}
+
+body {
+    text-align: center;
+}
+
+.row::after {
+    content: none;
+    clear: both;
+    display: table;
+}
+
+.lop {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border: 1px solid #c7c7c7;
+}
+
+.knee {
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+
+.knee i {
+    float: right;
+}
+
+#wha {
+    padding-bottom: 10px;
+}
+
+#wha img {
+    height,
+    width: 150px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.alumni1 {
+    cursor: pointer;
+}
+
+.alumni1 hr {
+    margin-bottom: 10px;
+}
+
+.modal-content {
+    margin-top: 100px;
+}
+
+.img_modal {
+display: inline-block;    
+}
+.p_modal{
+margin-top: 10px;    
+}
+.modal-body{
+text-align: center;    
+}
